@@ -14,8 +14,8 @@
 
 
 /*PUT YOUR GLOBAL CSS HERE:  */ 
-h1#body_content_title["About"]{
-color:red;
+h1#body_content_title{
+
 }
 
 
@@ -45,6 +45,11 @@ padding: 5px;
 article>h3>p{
 width-right:50%;
 
+}
+img[alt*="Resume"]{
+	margin-top: -50px;
+	float:left;
+	width: 88%;
 }
 /*
 .brand{
