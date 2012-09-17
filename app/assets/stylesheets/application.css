@@ -15,7 +15,12 @@
 
 /*PUT YOUR GLOBAL CSS HERE:  */ 
 h1#body_content_title{
+visibility: hidden;
+}
+header{
 
+	margin-top: -5%;
+	margin-left: 10px;
 }
 
 
@@ -28,23 +33,35 @@ text-rendering:optimizelegability;
 	margin-top: -3px;
 	font-size: 30px;
 }
+
+img[alt*="A Big"]{
+
+	width: 65%;
+margin-left: -1%;
+}
+
 img[alt*="187"]{
 	width: 44%;
 
 }
 img[alt*="115"]{
-	width: 60%;
+	width: 75%;
 	min-width: 50%;
-
+margin-left: 15%;
 }
-img[alt*="089"]{
-padding: 5px;
-	float:left;
+img[alt*="203"]{
+	width: 50%;
+margin-left: 15%;
 }
-
-article>h3>p{
-width-right:50%;
-
+img[alt*="89"]{
+	width: 31%;
+float: left;
+padding-right: 10px;
+}
+article{
+	padding-top: 1%;
+padding-right: 15px;
+margin-right: 10%;
 }
 img[alt*="Resume"]{
 	margin-top: -50px;
