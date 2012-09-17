@@ -14,3 +14,40 @@
 
 
 /*PUT YOUR GLOBAL CSS HERE:  */ 
+h1#body_content_title["About"]{
+color:red;
+}
+
+
+.container-fluid {
+	background: #000033;
+	font-color:white;
+text-rendering:optimizelegability;
+}
+.brand{
+	margin-top: -3px;
+	font-size: 30px;
+}
+img[alt*="187"]{
+	width: 44%;
+
+}
+img[alt*="115"]{
+	width: 60%;
+	min-width: 50%;
+
+}
+img[alt*="089"]{
+padding: 5px;
+	float:left;
+}
+
+article>h3>p{
+width-right:50%;
+
+}
+/*
+.brand{
+	font-family: courier;
+}
+*/
