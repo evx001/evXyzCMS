@@ -27,7 +27,7 @@ header{
 .container-fluid {
 	background: #000033;
 	font-color:white;
-text-rendering:optimizelegability;
+text-shadow:none;
 }
 .brand{
 	margin-top: -3px;
