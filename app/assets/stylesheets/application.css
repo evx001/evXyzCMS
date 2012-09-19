@@ -58,15 +58,15 @@ img[alt*="89"]{
 float: left;
 padding-right: 10px;
 }
-article{
-	padding-top: 1%;
-padding-right: 15px;
-margin-right: 10%;
-}
 img[alt*="Resume"]{
 	margin-top: -50px;
 	float:left;
 	width: 88%;
+}
+article{
+	padding-top: 1%;
+padding-right: 15px;
+margin-right: 10%;
 }
 /*
 .brand{

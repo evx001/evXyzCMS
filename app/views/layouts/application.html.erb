@@ -80,6 +80,15 @@
 img{
  display: none; 
 }
+h3{
+ display: none;  
+}
+h2{
+ display: none;  
+}
+.container-fluid{
+  display: none;
+}
 </style>
 
       </div>
@@ -97,8 +106,11 @@ img{
 
 <script type="text/javascript">
 $(document).ready(function() { 
-    $('img') .delay(300) .fadeIn(1000);
-   
+    $('img') .delay(1000) .fadeIn(1000);
+    $('h3') .delay(300) .slideDown(1500);
+    $('h2')  .slideDown(1500);
+    $('.container-fluid') .delay (750) .fadeIn(1000);
+
 });
  </script>
 
